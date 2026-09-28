@@ -1,0 +1,58 @@
+import { SampleTextSnippet } from '../types';
+
+export const SAMPLE_TEXTS: SampleTextSnippet[] = [
+  {
+    id: 'sample-1',
+    title: 'प्रेरणादायक विचार (Inspiration)',
+    category: 'quote',
+    hindiText: 'सपने वो नहीं होते जो हम सोते हुए देखते हैं, सपने वो होते हैं जो हमें सोने नहीं देते। निरंतर प्रयास और अटूट विश्वास से हर असंभव लक्ष्य को पाया जा सकता है।',
+    recommendedVoice: 'Fenrir',
+    recommendedEmotion: 'energetic',
+    description: 'डॉ. ए. पी. जे. अब्दुल कलाम का कालजयी विचार',
+  },
+  {
+    id: 'sample-2',
+    title: 'मधुर कविता (Poetry & Soul)',
+    category: 'poetry',
+    hindiText: 'लहरों से डर कर नौका पार नहीं होती, कोशिश करने वालों की कभी हार नहीं होती। नन्हीं चींटी जब दाना लेकर चलती है, चढ़ती दीवारों पर सौ बार फिसलती है। मन का विश्वास रगों में साहस भरता है।',
+    recommendedVoice: 'Zephyr',
+    recommendedEmotion: 'poetic',
+    description: 'हरिवंश राय बच्चन जी की प्रसिद्ध प्रेरणादायी पंक्तियाँ',
+  },
+  {
+    id: 'sample-3',
+    title: 'रोचक कहानी (Story Narration)',
+    category: 'story',
+    hindiText: 'एक घने जंगल में एक विशाल बरगद का पेड़ था। उस पेड़ की छांव में एक बुद्धिमान कौआ और उसकी मित्र गिलहरी रहते थे। एक दिन आसमान में काले घने बादल छा गए और बिजली कड़कने लगी...',
+    recommendedVoice: 'Kore',
+    recommendedEmotion: 'storytelling',
+    description: 'बच्चों व श्रोताओं के लिए आकर्षक पंचतंत्र शैली की कहानी',
+  },
+  {
+    id: 'sample-4',
+    title: 'शुभ प्रभात व अभिवादन (Warm Greeting)',
+    category: 'greeting',
+    hindiText: 'नमस्ते! आपका आज का दिन अत्यंत मंगलमय और खुशियों से भरा हो। ईश्वर करे कि आपके जीवन में सुख, शांति और समृद्धि का सदैव वास रहे।',
+    recommendedVoice: 'Kore',
+    recommendedEmotion: 'cheerful',
+    description: 'स्नेह और सकारात्मकता से भरा प्रातःकालीन संदेश',
+  },
+  {
+    id: 'sample-5',
+    title: 'दैनिक समाचार बुलेटिन (News Bulletin)',
+    category: 'news',
+    hindiText: 'नमस्कार, मुख्य समाचारों के साथ मैं उपस्थित हूँ। भारतीय अंतरिक्ष अनुसंधान संगठन ने आज एक और ऐतिहासिक उपलब्धि हासिल करते हुए नए मौसम उपग्रह का सफल प्रक्षेपण किया है।',
+    recommendedVoice: 'Puck',
+    recommendedEmotion: 'news',
+    description: 'पेशेवर और स्पष्ट समाचार वाचन शैली',
+  },
+  {
+    id: 'sample-6',
+    title: 'भावुक संवाद (Emotional Dialogue)',
+    category: 'dialogue',
+    hindiText: 'जिंदगी बहुत छोटी है मेरे दोस्त, कब शाम ढल जाए कुछ पता नहीं। इसलिए अपनों से कभी नाराज़ मत रहो, हर पल को खुलकर जियो और दिल खोलकर प्यार करो।',
+    recommendedVoice: 'Charon',
+    recommendedEmotion: 'empathetic',
+    description: 'दिल को छू लेने वाला आत्मीय संवाद',
+  },
+];

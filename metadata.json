@@ -1,0 +1,8 @@
+{
+  "name": "Hindi Text to Speech Converter",
+  "description": "Natural and emotionally expressive Hindi text-to-speech converter with adjustable voice styles, speed, and pitch settings.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
